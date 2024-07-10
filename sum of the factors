@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int i;
+        int sum=0;
+        //int sum=0;
+        for(i=1;i<=a;i++){
+            if(a%i==0){
+                sum=sum+i;
+                //sum=sum+i;
+                //System.out.print(i);
+               
+                
+                
+            }
+        
+        }
+         System.out.print(sum);
+        
+    }
+}
